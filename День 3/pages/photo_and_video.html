@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>AMIRI</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main_page.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+  <img href="#default" class="logo" src="../img/logo.jpg" align="center"></img>
+  <div class="header-right">
+    <a class="active" href="#home">Вход</a>
+    <a href="#contact" class="active_2">Регистрация</a>
+  </div>
+</div>
+<hr>
+<div class="dropdown">
+  <button class="dropbtn">Меню</button>
+  <div class="dropdown-content">
+  	<a href=../main.html>Главная страница</a>
+    <a href="#">Наша история</a>
+    <a href="#">Фото и видео</a>
+    <a href="#">Контакты</a>
+    <a href="#">О нас</a>
+  </div>
+</div>
+<h1 align="center">Наши модели</h1>
+<div class="slideshow-container" align="center">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../img/model_1.jpg" style="width:50%">
+    <div class="text">Playboi carti x AMIRI, collaboration 2019, summer</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../img/model_2.jpg" style="width:50%">
+    <div class="text">Bhad Bhabie, presents new AMIRI girl suit, autumn 2020</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../img/model_3.jpg" style="width:70%">
+    <div class="text">Pop Smoke presents new AMIRI jacket and glasses, spring 2019</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
+<br>
+<br>
+<h1 align="center">Концепт коллекции на лето 2023</h1>
+<video src="https://www.youtube.com/watch?v=9fKErbGosRk" controls></video>
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">AMIRI<span></span></h5>
+<p>AMIRI - одевайся в лучшее</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Быстрые ссылки<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<div class="thumb-content"><a href="#.">Главная страница</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Наша история</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Фото и видео</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">О нас</a></div>  
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title"><span></span></h5>
+<p>Получите полный доступ к функциям сайта</p>
+<a class="btn" href="#." target="_blank">Зарегистрируйтесь</a>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Наши контакты<span></span></h5>
+<p><a href="mikeamiri@gmail.com" title="glorythemes">mikeamiri@gmail.com</a></p>
+<ul class="social-footer2">
+<li class=""><a title="youtube" target="_blank" href="/"><img alt="youtube" width="30" height="30" src="../img/youtube.png"></a></li>
+<li class=""><a href="/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="../img/facebook.png"></a></li>
+<li class=""><a href="/" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src="../img/twitter.png"></a></li>
+<li class=""><a title="instagram" target="_blank" href="/"><img alt="instagram" width="30" height="30" src="../img/instagram.png"></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+   
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Copyright AMIRI © 2022. All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
