@@ -8,6 +8,9 @@
   overflow: hidden;
   padding: 20px 10px;
 }
+.tovari{
+  margin-left: 450px;
+}
 * {
   box-sizing:border-box;
 }
@@ -206,7 +209,7 @@ p.text-about-shop{
 }
 .place {
   margin-top: 130px;
-  font-size: 40px;
+  font-size: 0px;
 }
 .place_1 {
   margin-top: 130px;

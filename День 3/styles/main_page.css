@@ -28,6 +28,12 @@
 .history_photo{
   margin-left: 450px;
 }
+.history_photo_1{
+  margin-left: 500px;
+}
+.history_photo_2{
+  margin-left: 550px;
+}
 /* Стиль ссылки логотипа */
 .header a.logo {
   font-size: 25px;
